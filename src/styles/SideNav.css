@@ -1,0 +1,98 @@
+.homebtn {
+    display: flex;
+    margin-bottom: 10px;
+    width: 224px;
+    height: 48px;
+    padding: 12px 0px ;
+}
+
+.homebtn:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border-bottom: 5px solid #DC5B19;
+}
+
+.homebtn img{
+    width: 20px;
+    height: 17px;
+}
+
+.homebtn span{
+    color: #1A0A02;
+    font-size: 16px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    font-weight: 600;
+}
+
+.consolebtn {
+    cursor: pointer;
+    display: flex;
+    height: 48px;
+    width: 224px;
+    padding: 12px 0px ;
+}
+
+.consolebtn:hover {
+    cursor: pointer;
+    background-color: #F0F0F0;
+    border-bottom: 5px solid #DC5B19;
+}
+
+.dropdown-menu {
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    display: flex;
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-menu a:hover{
+    cursor: pointer;
+    background-color: #F0F0F0;
+}
+
+.dropdown-menu a img{
+    padding: 0px 12px 0px 0px;
+    margin-left: 40px;
+    width: 32px;
+    height: 25px;
+}
+
+.consolebtn span{
+    color: #1A0A02;
+    display: flex;
+    align-items: center;
+    width: 67px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.consolebtn .arrow{
+    margin-left: 14px;
+    width: 21.18px;
+    height:50px;
+    padding: 2.71px 0px 30px 5.41px;
+}
+
+.consolebtn .console-btn{
+    width: 18px;
+    height: 35px;
+}

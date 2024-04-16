@@ -1,0 +1,56 @@
+.nav-bar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: flex;
+    width: 1440px;
+    height: 104px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 24px 32px 10px 40px;
+}
+
+.header h1{
+    color: #1A0A02;
+    padding-bottom: 50px;
+    height: 40px;
+    margin-left: 2%;
+    width: max-content;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    height: 40px;
+    width: 136px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bell-icon{
+    height: 50px;
+    width: max-content;
+}
+
+.bell-icon:hover{
+    cursor: pointer;
+}
+
+.profile-icon{
+    height: 50px;
+    width: max-content;
+    border-radius: 50px;
+}
+
+.profile-icon:hover{
+    cursor: pointer;
+}

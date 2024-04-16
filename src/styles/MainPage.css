@@ -1,0 +1,17 @@
+.task-body{
+    width: 95%;
+    display: flex;
+    margin: 0px;
+    padding: 12px;
+}
+
+.sidenav{
+    width: 224px;
+    height: 920px;
+}
+
+.tasks{
+    margin-left: 20px;
+    width: 1128px;
+    height: 1062px;
+}

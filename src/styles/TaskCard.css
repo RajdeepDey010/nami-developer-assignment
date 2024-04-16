@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.task-header span{
+    width: 208px;
+    height: 30px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    color: #1A0A02;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.recomends{
+    margin: 24px 0px;
+}
+.recomendBtn{
+    height: 28px;
+    background: transparent;
+    margin: 0px 8px 0px 0px;
+    padding: 0px 8px;
+    border: 1px solid #B8B8B8;
+    color: #767676;
+    border-radius: 50px;
+    text-align: center;
+    font-family: "Encode Sans Expanded", sans-serif;
+}
